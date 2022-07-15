@@ -1,0 +1,10 @@
+Tps av tout(ms):
+Tps max(mn):
+Pel/Inj max:
+Cage Yoked:
+OffsetFz(ms):1000
+Tps injection(s):
+Remarque:
+DEB
+	TI	TJ	TK	TL	HLED(1,1)	LED1(1,2)	LED2(1,3)	LED3(1,4)	LED4(1,5)	NP1(3,1)	NP2(3,2)	D1(4,1)	LK1(5,1)	LK2(5,2)	TOP(6,6)	REC(6,8)	RD(6,11)	ASND(6,20)	STR1(13,1)	STR2(13,2)	OD1(17,4)	OD2(17,5)	NEXT1	NEXT2	NEXT3	CT1	CT2
+1	5000											ON(3)											!TI(1)				

@@ -1,0 +1,108 @@
+88 
+
+*POlymodal cages explanation and the operant chamber
+- cleaning after experiments ; and between mice
+
+** Components
+
+** open the computer
+
+
+Habituate mice
+
+RUN TEST
+
+******
+
+Configure the experiments
+1/ vidoe
+2/ poly (exercises)]
+
+
+
+
+-- OuvriR:
+C:\POLY\Donnees
+
+--EXERCISE >>Ouvrir >>
+C:\POLY\Exercices
+
+TESTING: You work on 1 box
+
+EXPERIMENT: Press ON/OFF General
+
+0_Make sure the animals are well habituated to the room; and relaxed
+- Start iSPY Video software; and confirm all cameras are working. Minimize to tray 
+1_OPEN POLY software:
+
+* Load.. Confirm all chambers are working
+$$ Optional $$ You can run a test beforehand; in "C:\POLY\Exercices\IMETRONIC" e.g:"-\Test_tout.xls"
+
+2_Load the Exercise you want to use; confirming that is properly loaded will avoid you later issues
+3_Etiquette: Add general rules to be applied for the 4 chambers: [Mice type; Date; treatment (if present)...etc]
+4_Write Animal No. and your identifier as you wish in the boxes; whatever makes it easier and reproducibly identified
+
+
+((())) THE TIMING AND PROTOCOL OF THE EXPERIMENT
+**** EXERCISE FILE: 
+WHAT IS IT [Understanding it]
+HOW TO MAKE EXERCISE [Coding]
+
+
+T1
+T2
+T3
+T4
+HLED(1,1)
+LED1(1,2)
+LED2(1,3)
+NP1(3,1)
+NP2(3,2)
+D1(4,1)
+LK1(5,1)
+LK2(5,2)
+REC(6,8)
+RD(6,11)
+ASND(6,20)
+ASHK(6,23)
+STR1(13,1)
+STR2(13,2)
+TTLP1(15,1)
+OD1(17,4)
+OD2(17,5)
+NEXT1
+NEXT2
+NEXT3
+CT1
+CT2
+
+XLS
+
+
+======
+
+
+Record and do the experiment
+
+
+AFter data is into 2 formats:
+
+1) poly data and will be handeled by polyfiles software
+2) videos [C:\Videos\video]
+(N.B: the default format for video registration is [n_yyyy_mm_dd_hh-mm-ss ]; in which n=no. of poste
+2_2022-07-12_11-56-12
+
+It's better to collect all the expeirments data in one folder; organized as you wish:
+Here's mine:
+
+- POST [1-4]
+-- POLY
+-- Video
+---Output
+
+
+
+Analyze:
+
+
+TO FILL

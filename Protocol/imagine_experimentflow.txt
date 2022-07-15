@@ -1,0 +1,136 @@
+Imagine
+
+change gloves; between WT and KO; 
+clean in between.....
+Use different weight things
+to mark; you touch the tail, and not press.. then the animal is ok
+the idea is to minimize the stress and disturbance of internal state of the animal as much as possible
+hence; he'd learn
+
+Imagine.. you are a mouse, you share your home with three others, you all lack the same thing. Yet the way you were nurtured is not the same; in one cage; you come from different mothers; and in the other you are from the same mother..
+With this you learn to adapt, and adjust to the new, you fight or flight, you beat or get beaten, you sniff or get sniffen; approaching an other, is ultimately the goal, that would aid you in your survival, that is by trying to identify your peers, your other three roommates. With them you spend most of the time, in the same housing condition, building together a nest; and playing around with paper... (*i)
+Then every morning; that is your night; as it is not inversed, this cycle of humans, ah every morning, or rather mid night; you are dreaming and sleeping; all on each other, transmitting heat to each other and all. 
+Then this human, ah of him; comes to you at 9:30-9:45 am; he picks you up gently, looking at you, checking your eyes for signs of pain, checking if you had been in a fight and all that concerns (*i), then you start a journey, of an experiment, that is quiet repetitive. Importantly, the habituation, had been established, there's another magic room, that has some other rooms; one of them is quiet big; and with similiar light conditions and all; which is basically changing your animalerie room; between 30 & 6.
+
+Then you get into these cages; polymodal they call them
+
+
+
+(*i) observe housing and environmental enriching status between the four cages; weight; ..etc
+
+14:54
+But then again, this kind human, comes to the room.
+Your cage is moving, gently, it is placed on another desk, minimal of movements we start to wake up.
+A blue object is presented to us; it is a box; we don't like to explore it; it is becoming familiar now; yet it seems we are habituated to it; so we will land on it gently, and soon be in another cage,
+it has grids, that's nice, we can move on our own, scratch and clean ourselves; whatever (Baseline activity: 3:00 min >>> DLC model to analyze; locomotion)
+
+Then.... protocol
+Exercise is loaded; we're going to the gym
+
+The mice are into a room now; yet we need to prepare the room;
+the videos are open, and the camera will record what will happen...it's in the tray
+The rest is to configure the cages; 4 named poste(1-4); set the on-off general
+Exercise>> Ouvrir: 
+02_Preconditioning_LED1_Tone.xls
+Now a tone is to be coupled to a light for [add protocol details]10 of the seconds
+
+Each session can be loaded; 
+You have to individually load in each box the correct ones:
+e.g: Poste 02:	Fichier>>Ouvrir: 02_Preconditioning/02_Pre_%Gene%
+02_Pre_KO:>> 02_Pre_KO01.sea
+
+éè
+
+a box will come up: it says {Séances precendetes...}
+Confirm Animal ID, Date and Gene [Wt vs. KO]
+Repeat iPoste:nPostes
+
+Etiquette: Modify Date and confirm gene.
+
+TASK: INSERT PICTURES 
+Place the animals
+and press ON!
+You confirm the recording is working; you're being spied on.
+You confirm the cages are responding; the machine is reading.
+ 
+Now all is well; you are conditioned [pre] to that there is an LED.. it means tone!
+6 Preconditioning sessions (2/day during 4 days), in the same day the sessions are separated at least for 3h
+
+Now that a session ended; a group (%gene%) is to be switched; thus clean very well in between and start the other group (e.g: (6.3/6.4), range 1-6.1:6-6.4)
+insert part of the graph; maybe make a PPT of illustrations
+	
+Tomorrow; we will shock you - sadly; in order to test your incidental learning. 
+As if your sensory preconditioning is properly conducted; carefully attentive to the little details, of time and experimental conditions.
+In a new experience, of conditioning; 
+
+
+
+Now in batches = n_batches
+cage = ncages
+gene = class
+animal_id = id
+i
+idx
+
+
+video???!> ?!
+====================================
+Tomorrow is here:
+2 training sessions separated 1h
+
+The shock is an aggressive manipulation;
+so better make it as easy for an animal as possible
+Pay attention to whatever you introduce to that grid; as mice can get distracted as humans; quiet easily; if such a vivid memory creation experience is undergone.
+As yesterday you've completed youre sixth session of the exercise; all is supposed to be well...
+You will enter the grid; there are no remains of food, pee, stool or bedding of another place: {meaning cleaning well; and making sure what is there; resembles what was at house>> yet the context is different}
+Mice leave out a lot of traces, better watch out for cleaning
+
+Then; 
+
+PROTOCOL:
+	0- 3 min  [180000ms] : H1  		{Baseline}
+	1- 8 secs [8000ms]     : HLED(ON)	{Light}
+	1- 2 secs [2000ms]     : ASHCK(ON(i0.4))	{Shock: [ON;iON],[if @ON = ON(iX); i=intensity; X="float"]
+	2- 1 min   [60000ms]  : ITI_1 [HLED(!ON),ASHCK(!ON)	{ITI_"n"} {CTT=idxn}
+		$$$$ __++LSx... TTL Iteration:LSx --> ITI_x-1 $$$$	
+	3- 1 min  [60000ms]   : H2		{End}
+1,2 Iteration: "args":  n[ITI]; n [HLED:ASHCK]
+
+
+====================================
+Tomorrow is here:
+2 Probe tests (one with light and the other with tone) each session 3 min off and then 3 min On, separated at least 1h (both in the morning).
+
+.
+Probe Test 1: Fear: 3 min off and then 3 min On: LED
+PROTOCOL:
+	0- 3 min  [180000ms] : T1= H1; T2=_OFF  		{Baseline}
+	1- 3 min  [180000ms]    : T1= HLED(ON); T2=_OFF		{Light}
+		$$$$ __++LSx... TTL Iteration:LSx --> ITI_x-1 $$$$	
+	3- 1 min  [60000ms]   : H2				{End}
+1,2 Iteration: "args":  n[ITI]; n [HLED:ASHCK]
+
+then;
+
+Probe Test 2: Fear: 3 min off and then 3 min On: LED
+	
+PROTOCOL:
+	0- 3 min  [180000ms] : T1= H1; T2=_OFF  		{Baseline}
+	1- 3 min  [180000ms]    : T1= ASND(ON); T2=_ON		{Light}
+			 ON(3,3000)
+			!ON		
+$$$$ __++LSx... TTL Iteration:LSx --> ITI_x-1 $$$$	
+	3- 1 min  [60000ms]   : H2				{End}
+
+1,2 Iteration: "args":  n[ITI]; n [HLED:ASHCK]
+
+
+
+
+ 
+ 
+
+
+
+ 
+

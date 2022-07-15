@@ -1,0 +1,14 @@
+Hi Hazim,
+
+I hope everything is fine. I am attaching the Polyboxes protocols of the light-tone sensory preconditioning protocol that Julia (in cc) set up during the last year. This protocol consist in:
+  1 habituation session (morning)
+  6 Preconditioning sessions (2/day during 4 days), in the same day the sessions are separated at least for 3h
+  2 training sessions separated 1h
+  2 probe tests (one with light and the other with tone) each session 3 min off and then 3 min On, separated at least 1h (both in the morning).
+
+One important thing, discussing with you I had the impression that in the polyboxes you have there is no camera (I did not remember that). I think before starting any experiments you might need to place a camera in each polybox in order to get videos. We are analyzing all these experiments as I told you in a automatized way(with DeepLabCut) and obtaining videos from your experiments in Bordeaux would be required in order to solve potential problems or issues. Moreover, getting the videos allow for more powerful analysis (we can also share you the scripts to analyze in the future). You can add the cameras through IMETRONIC (more expensive) or check for other possibilities (independent cameras with one splitter, which will be less expensive). We really think that this is important and should be done before any test.
+
+Please, try to share with us the experiments and setting up of the protocol. Julia did a great effort setting up all this (trying several conditions and protocols) and I think we have to be involved in the setting up and the posterior behavioral experiments with CB1 mouse lines.
+
+Best and let us know if you have doubts,
+Arnau
